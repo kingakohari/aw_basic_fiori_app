@@ -1,0 +1,8 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="myfirstproject.controller.View1" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Input xmlns="sap.m" id="input1" autocomplete="false" placeholder="{i18n>inptPlaceholder}"/>
+            <Button xmlns="sap.m" text="{i18n>btnText}" id="button0" press="onButtonPress"/>
+        </content>
+    </Page>
+</mvc:View>
